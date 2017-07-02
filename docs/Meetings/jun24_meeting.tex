@@ -1,0 +1,60 @@
+\documentclass[a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\newcommand{\theDate}{June 24th, 2017} %Change this every meeting
+\setlength{\headheight}{13.6pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{Capstone Meeting Minutes}
+\fancyfoot[R]{\theDate{}}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+	\begin{center}
+		\huge Capstone Meeting Minutes
+	\end{center}
+	\textbf{Attendance} Farhan Rahman, Wyatt Thomson, Huy Bui, James Jo, Aleksa Svitlica (Note Taker) \\
+	\textbf{Regrets} None \\
+
+	\section{Old business}
+	\subsection{Follow up on old ideas}
+	\begin{itemize}
+		\item Certain ideas like the satellite and vanta black are probably out of consideration.
+		\item We have decided to shelf the telepresence robot for the time being and focus on the self driving car network
+		\item Self driving car network using zigbee. Each car could be a node in a peer to peer network.
+		\item We need to do cost analysis for the hardware of the cars. They each need wheels, a processor and radio module at least.
+		\item Security is not built into zigbee, therefore if we decide to use zigbee we will need to implement some basic encryption.
+	\end{itemize}
+
+	\section{New business}
+	\subsection{Proposal}
+	Our sample propsal should be structured roughly like this:
+	\begin{itemize}
+		\item Title
+		\item Abstract
+		\item Outline of research (citations) to show it is feasible
+		\item Outline of technology and hardware we are being used.
+		\item What we would be working on and how we are dividing these tasks.
+	\end{itemize}
+	\subsection{Roadmap}
+	\begin{itemize}
+		\item We still need to create a roadmap. Perhaps something like a Gantt chart if we want a strict structure or something less formal.
+		\item Farhan has added some rough dates on Slack.
+	\end{itemize}
+
+
+	\section{Actions to be taken}
+	\subsection{High Priority}
+	\begin{itemize}
+ 		\item None
+	\end{itemize}
+	\subsection{Low Priority}
+	\begin{itemize}
+		\item \textbf{Everyone:} Autonomous guidance research. Path routing. Collision detection.
+		\item \textbf{Everyone:} Zigbee research. Implementing neural networks.
+	\end{itemize}
+	\textbf{Meeting ended at 2:00.}
+\end{document}

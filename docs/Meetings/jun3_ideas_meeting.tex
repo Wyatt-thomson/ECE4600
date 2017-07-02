@@ -1,0 +1,97 @@
+\documentclass[a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\newcommand{\theDate}{June 3rd, 2017} %Change this every meeting
+\setlength{\headheight}{13.6pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{Capstone Meeting Minutes}
+\fancyfoot[R]{\theDate{}}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+	\begin{center}
+		\huge Capstone Meeting Minutes
+	\end{center}
+	\textbf{Attendance} Farhan Rahman, Wyatt Thomson, Huy Bui, James Jo, Aleksa Svitlica (Note Taker) \\
+	\textbf{Regrets} None \\
+	
+	\section{Old business}
+	None
+	\section{New business}
+	
+	\subsection{Wyatt Thomson}
+	\begin{itemize}
+		\item Telepresence robot, can move around and has a screen and cameras. Robot needs autonomous or semi-autonomous control. In this experiment the robots movement are hardcoded. We would be prgramming a robot which can move around a environment dynamically. Infared detectors in the base and range measurements to map the environment and move about it based on a defined set of rules.
+		\item The case study was about how people with disabilities interact with robots. Did they enjoy going to the museum? Challenges with this robot is the time lag between inputs which can be mitigated with the robot having programming for autonomous movement. The user could still send inputs but wouldn't have to.
+		\item Make a physical robot with some kind of computer in the base (raspberry pi?). Then use a phone or something to communicate with the robot.
+		\item Work can be divided into things like camera setup, collision detection software, power for the robot/hardware, course mapping etc.
+		\item This project is related to the Dr. Ferens project, therefore we could potentially still approach him for this.
+		
+	\end{itemize}
+	
+	\subsection{James Jo}
+	\begin{itemize}
+		\item Solar cell and generator.
+		\item Vanta black can absorb 99\% of light. It is a good head conductor. A solor thermal collecter. Can heat up to 500 degrees.
+		\item Effectiveness of a vanta black solor collecter.
+		\item Can we obtain Vanta Black? How much will it cost? Is there Vanta Black alternatives that we could potentially use?
+		\item UMSATS has a very powerful light that could be used as a sun simulator.
+		\item To acquire this we might need to try and purchase it through the university.
+		\item This could be part of a larger project. 
+	\end{itemize}
+
+	\subsection{Huy Bui}
+	Idea 1:
+	\begin{itemize}
+		\item Portable 3D scanner bot which rotates around to perform scanning.
+		\item Spider bot with two cameras, one detects distance and one determines color.
+		\item Huy has a camera which is preloaded with machine vision stuff.
+		\item Must be very portable and have low power consumption. This bot would be fairly small so it could rotate around an object.
+		\item Use an FPGA or microprocessor to speed up computation.
+	\end{itemize}
+	Idea 2:
+	\begin{itemize}
+		\item Machine learning camera for disability. Specifically for bus stop location and bus detection.
+		\item Tower would have camera which can detect when a bus is coming up and be able to read the bus number so it can give a warning about which bus is approaching.
+		\item Can pull data from Winnipeg Transit website which can give additional information about which possible buses could be approaching.
+		\item Wyatt has pointed out that this technology could be very useful for applications outside of buses too. For example visually impaired persons could use this to read signs.
+		\item This could be implemented as a phone app perhaps. Depending on what kind of object detection we try to do there are plenty of applications for it.
+	\end{itemize}
+
+	\subsection{Aleksa Svitlica}
+	Idea 1:
+	\begin{itemize}
+		\item Designing the electrical and software portions of a nano-satellite. This would contribute to UMSATS and as a result would give us access to UMSATS resources.
+		\item We could cover the power module, on-board computer (OBC), payload, communications/interfacing and any associated software. This would make it easy to divide up tasks. However, we would need to be careful about how much we take on because some tasks (software) would depend on hardware, so we would need to find tasks that could keep everyone busy.
+	\end{itemize}
+	Idea 2:
+	\begin{itemize}
+		\item Optimizing road use in a city through aggregation of traffic data and algorithms for routing vehicles.
+		\item This idea is not fully thought out but it would essentially involve acquiring data about traffic in a city. Maybe this would be done by having sensors on every car (privacy concern) or by monitoring major intersections; this would need to be evaluated. We would also need to determine what is the most efficient way to use a road system i.e. how much use of smaller roads versus major roads. End goal is to combine the data with the vehicle routing algorithms.
+	\end{itemize}
+
+	\subsection{Farhan Rahman}
+	\begin{itemize}
+		\item Build on Ken Ferens experiment and have a simulation with multiple cars.
+		\item Farhan purchased a radio module and a pic microprocessor to work with it. They are inexpensive and each car could potentially have one and send information to a base station.
+		\item Essentially create a miniature autonomous car network.
+		\item They have peer to peer zigbee networks. We could implement machine learning so that in a theoretical situation like an obstacle sitting on the track this information would be communicated back to base station and then all other cars. Routes would then be reevaluated to avoid the obstacle.
+	\end{itemize}
+
+	\section{Actions to be taken}
+	\subsection{High Priority}
+	\begin{itemize}
+ 		\item None
+	\end{itemize}
+	\subsection{Low Priority}
+	\begin{itemize}
+		\item \textbf{Everyone:} Find different ideas.
+		\item \textbf{Everyone:} Do more research in your own ideas as well as becoming more familiar with other project ideas presented today.
+		\item \textbf{Everyone:} Look into combining ideas for multiple projects because there are many shared concepts between the ideas pitched today.
+	\end{itemize}
+	\textbf{Meeting ended at 2:00.}
+\end{document}
